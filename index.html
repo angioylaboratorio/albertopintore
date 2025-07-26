@@ -30,6 +30,19 @@
 			richiesta.open("GET",elemento.innerHTML + ".html",true);
 			richiesta.send();
 		}
+        function visualizza()
+        {
+            let testo="";
+            if (innerWidth<=1000)
+            {
+                testo="<a href=\"Classi quinte.html\">Classi quinte</a>";
+            }
+            else
+            {
+                testo="<a href=\"#\" onclick=\"carica1(this)\">Classi quinte</a>";
+            }
+        }
+        
 	</script>
     <title>Welcome to Angioy Laboratorio</title>
 </head>
@@ -77,7 +90,6 @@
             testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Strumenti</a>";
             testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Informazioni</a>";
         }
-	alert(testo);
         contenitore.innerHTML=testo;
      
     </script>
