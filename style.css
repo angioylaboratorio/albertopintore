@@ -52,7 +52,7 @@
     margin-top:-130px;
     height:500px;
 }
-@media only screen and (max-width:768px)
+@media only screen and (max-width:1000px)
 {
 	#imgheader
         {
@@ -70,7 +70,7 @@
         }
         #description
         {
-		font-size:20px;
+		font-size:10%;
         }
         #name
         {
