@@ -85,10 +85,12 @@
 #body div
 {
     min-height:800px;
+    min-height:800px;
 }
 #body #left
 {
     width:30%;
+    min-height:800px;
 }
 #body #right
 {
