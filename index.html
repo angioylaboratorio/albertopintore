@@ -12,6 +12,7 @@
 			richiesta.onreadystatechange=function()
 			{
 				document.getElementById("right").style.display="block";
+                alert(richiesta.rsponseText);
 				document.getElementById("right").innerHTML=richiesta.responseText;
 			}
 			richiesta.open("GET",elemento.innerHTML + ".html",true);
