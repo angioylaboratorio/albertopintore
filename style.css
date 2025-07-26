@@ -38,6 +38,9 @@
     display:block;
     font-family:tahoma;
     font-size:150%;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
     text-decoration:none;
     color:#0000AA;
 }
