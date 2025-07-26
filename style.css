@@ -39,7 +39,7 @@
     display:block;
     margin-top:80px;
     font-family:tahoma;
-    font-size:200%;
+    font-size:150%;
     text-decoration:none;
     color:#0000AA;
 }
@@ -73,6 +73,22 @@
         {
 			margin-top:15px;
         }
+        #footer
+        {
+            display:none;
+        }
+        #body
+        {
+            display:none;
+        }
+        #body #left
+        {
+            display:none;
+        }
+        #body #right
+        {
+            display:none;
+        }
 }
 #body
 {
@@ -93,7 +109,7 @@
     color:white;
     text-align:center;
     line-height:50px;
-    font-size:400%;
+    font-size:200%;
 }
 #body1 a
 {
