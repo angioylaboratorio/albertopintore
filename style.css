@@ -60,7 +60,8 @@
         }
 	#navbar
         {
-		margin-left:0px;
+			margin-left:0px;
+			margin-top:10px;
         }
         #body #left
         {
@@ -72,7 +73,7 @@
         }
         #name
         {
-		margin-top:15px;
+			margin-top:15px;
         }
 }
 #body
