@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
-    <title>Didattica</title>
-</head>
-<body>
     <script>
+        function visualizza()
+        {
         let testo="";
         alert("Ok");
         if (innerWidth<=1000)
@@ -18,8 +17,13 @@
         {
             testo="<a href=\"#\" onclick=\"carica1(this)\">Classi quinte</a>";
         }
-        document.innerHTML=testo;
+    }
+        
     </script>
+    <title>Didattica</title>
+</head>
+<body onload="visualizza();">
+    
     
 </body>
 </html>
