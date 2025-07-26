@@ -5,7 +5,6 @@
     width:150px;
     height:150px;
     border-radius:150px;
-    border-style:solid;
     border-color:#0000AA;
     border-width:6px;
     float:left;
@@ -64,6 +63,7 @@
 			display:block;
 			margin-left:0px;
 			margin-top:0px;
+			border-style:solid;
         }
         #navbar a
         {
