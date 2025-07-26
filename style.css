@@ -32,6 +32,7 @@
     height:500px;
     margin-left:300px;
     margin-top:-130px;
+	border-style:solid;
     float:left;
 }
 #navbar a
