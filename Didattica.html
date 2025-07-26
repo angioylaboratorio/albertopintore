@@ -11,6 +11,7 @@
         
     </div>
     <script>
+        let contenitore=document.getElementById("body1");
         let testo="";
         if (innerWidth<=1000)
         {
@@ -20,6 +21,7 @@
         {
             testo="<a href=\"#\" onclick=\"carica1(this)\">Classi quinte</a>";
         }
+        contenitore.innerHTML=testo;
     </script>
 </body>
 </html>
