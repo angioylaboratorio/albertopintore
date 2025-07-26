@@ -58,6 +58,14 @@
         {
 		display:none;
         }
+	#navbar
+        {
+		margin-left:0px;
+        }
+        #body #left
+        {
+		display:none;
+        }
 }
 #body
 {
