@@ -23,7 +23,7 @@
     margin-left:30px;
     line-height:30px;
     font-family:arial;
-    font-size:25px;
+    font-size:300%;
     color:#0000AA;
 }
 #navbar
@@ -39,7 +39,7 @@
     display:block;
     margin-top:80px;
     font-family:tahoma;
-    font-size:18px;
+    font-size:200%;
     text-decoration:none;
     color:#0000AA;
 }
@@ -68,10 +68,7 @@
         {
 		display:none;
         }
-        #description
-        {
-		font-size:300%;
-        }
+        
         #name
         {
 			margin-top:15px;
@@ -96,7 +93,7 @@
     color:white;
     text-align:center;
     line-height:50px;
-    font-size:20px;
+    font-size:400%;
 }
 #body1 a
 {
