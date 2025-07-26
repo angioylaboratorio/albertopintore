@@ -85,7 +85,6 @@
 #body div
 {
     min-height:800px;
-    min-height:800px;
 }
 #body #left
 {
@@ -95,4 +94,5 @@
 #body #right
 {
     width:70%;
+    min-height:800px;
 }
