@@ -8,7 +8,18 @@
 </head>
 <body>
     <div id="body1">
-        <a href="#" onclick="carica1(this)">Classi quinte</a>
+        
     </div>
+    <script>
+        let testo="";
+        if (innerWidth<=1000)
+        {
+            testo="<a href=\"Classi quinte.html\">Classi quinte</a>";
+        }
+        else
+        {
+            testo="<a href=\"#\" onclick=\"carica1(this)\">Classi quinte</a>";
+        }
+    </script>
 </body>
 </html>
