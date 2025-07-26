@@ -40,11 +40,9 @@
         presso Istituto Angioy Carbonia
     </h3>
     <h1 id="name">Alberto<br />Pintore</h1>
+    
     <div id="navbar">
-        <a href="#" onclick="carica(this)">Home</a>
-        <a href="#" onclick="carica(this)">Didattica</a>
-        <a href="#" onclick="carica(this)">Strumenti</a>
-        <a href="#" onclick="carica(this)">Informazioni</a>
+        
     </div>
     <img src="header.jpg" id="imgheader"/>
     <div id="body">
@@ -61,5 +59,25 @@
         html css javascript<br />
         tutte le critiche riservate</h1>
     </div>
+    <script>
+        let contenitore=document.getElementById("navbar");
+        let testo="";
+        if (innerWidth<=1000)
+        {
+            testo="<a href=\"index.html\">Home</a>";
+            testo=testo + "<a href\"Didattica.html\">Didattica</a>";
+            testo=testo + "<a href=\"Strumenti.html\">Strumenti</a>";
+            testo=testo + "<a href=\"Informazioni.html\">Informazioni.html</a>";
+        }
+        else
+        {
+            testo="<a href=\"#\" onclick=\"carica(this)\">Home</a>";
+            testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Didattica</a>";
+            testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Strumenti</a>";
+            testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Informazioni</a>";
+        }
+        contenitore.innerHTML=testo;
+     
+    </script>
 </body>
 </html>
