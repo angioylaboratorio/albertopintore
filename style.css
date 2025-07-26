@@ -64,6 +64,10 @@
 			margin-left:0px;
 			margin-top:15px;
         }
+        #navbar a
+        {
+            margin-top:10%;
+        }
         #body #left
         {
 		display:none;
