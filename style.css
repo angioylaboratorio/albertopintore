@@ -33,7 +33,7 @@
     margin-top:-130px;
     float:left;
 }
-#navbar a, #linknews
+#navbar a
 {
     display:block;
     font-family:tahoma;
@@ -44,8 +44,11 @@
 }
 #linknews
 {
+	display:block;
+	 font-family:tahoma;
+         font-size:150%;
 	margin-top:20px;
-        text-decoration:underline;
+         color:#0000AA;
 }
 #imgheader
 {
