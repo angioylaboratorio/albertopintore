@@ -42,6 +42,11 @@
     text-decoration:none;
     color:#0000AA;
 }
+#linknews
+{
+	margin-top:20px;
+        text-decoration:underline;
+}
 #imgheader
 {
     display:block;
