@@ -17,26 +17,10 @@
 			richiesta.open("GET",elemento.innerHTML + ".html",true);
 			richiesta.send();
 		}
-
-		 function start()
-		{
-			let richiesta;
-			richiesta=new XMLHttpRequest();
-			richiesta.onreadystatechange=function()
-			{
-				document.getElementById("right").style.display="block";
-				document.getElementById("right").innerHTML=richiesta.responseText;
-			}
-			richiesta.open("GET","Home.html",true);
-			richiesta.send();
-		}
-
-        
-        
 	</script>
     <title>Welcome to Angioy Laboratorio</title>
 </head>
-<body onload="start();">
+<body>
     <img src="me.jpg" id="me" />
     <h3 id="description"><span style="font-size:30px;">Insegnante tecnico pratico di laboratorio di </span><br /> 
         informatica, sistemi e reti, tecnologie e progettazione di sistemi informatici e di telecomunicazioni<br />
@@ -65,6 +49,7 @@
     <script>
         let contenitore=document.getElementById("navbar");
         let testo="";
+	let richiesta;
         if (innerWidth<=1000)
         {
             testo="<a href=\"index.html\">Home</a>";
@@ -81,7 +66,14 @@
             testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Informazioni</a>";
         }
         contenitore.innerHTML=testo;
-     
+        richiesta=new XMLHttpRequest();
+			richiesta.onreadystatechange=function()
+			{
+				document.getElementById("right").style.display="block";
+				document.getElementById("right").innerHTML=richiesta.responseText;
+			}
+			richiesta.open("GET","Home.html",true);
+			richiesta.send();
     </script>
 </body>
 </html>
