@@ -18,24 +18,25 @@
 			richiesta.send();
 		}
 
-		function carica1(elemento)
+		 function start()
 		{
 			let richiesta;
 			richiesta=new XMLHttpRequest();
 			richiesta.onreadystatechange=function()
 			{
-				document.getElementById("body1").style.display="block";
-				document.getElementById("body1").innerHTML=richiesta.responseText;
+				document.getElementById("right").style.display="block";
+				document.getElementById("right").innerHTML=richiesta.responseText;
 			}
-			richiesta.open("GET",elemento.innerHTML + ".html",true);
+			richiesta.open("GET","news.html",true);
 			richiesta.send();
 		}
+
         
         
 	</script>
     <title>Welcome to Angioy Laboratorio</title>
 </head>
-<body onload="carica();">
+<body onload="start();">
     <img src="me.jpg" id="me" />
     <h3 id="description"><span style="font-size:30px;">Insegnante tecnico pratico di laboratorio di </span><br /> 
         informatica, sistemi e reti, tecnologie e progettazione di sistemi informatici e di telecomunicazioni<br />
