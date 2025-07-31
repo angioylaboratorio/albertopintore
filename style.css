@@ -150,3 +150,11 @@
     width:70%;
     min-height:800px;
 }
+.strumento
+	{
+		border-style:solid;
+		border-width:1px;
+		border-color:black;
+		height:100px;
+                display:flex;
+	}
