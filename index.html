@@ -52,6 +52,7 @@
             testo=testo + "<a href=\"Didattica.html\">Didattica</a>";
             testo=testo + "<a href=\"Strumenti.html\">Strumenti</a>";
             testo=testo + "<a href=\"Informazioni.html\">Informazioni</a>";
+		contenitore.innerHTML=testo;
         }
         else
         {
@@ -59,7 +60,7 @@
             testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Didattica</a>";
             testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Strumenti</a>";
             testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Informazioni</a>";
-		contenitore.innerHTML=testo;
+           contenitore.innerHTML=testo;
         richiesta=new XMLHttpRequest();
 			richiesta.onreadystatechange=function()
 			{
