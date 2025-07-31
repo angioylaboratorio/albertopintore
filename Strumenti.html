@@ -12,9 +12,92 @@
             font-weight:bold;
             margin-top:50px;
         }
+	.strumento
+	{
+		border-style:solid;
+		border-width:1px;
+		border-color:black;
+		aspect-ratio:35/3;
+                display:flex;
+		
+	}
+                .strumento #contenitore_immagine
+        {
+             border-style:solid;
+             border-width:1px;
+             border-color:black;
+             width:10%;
+             height:100%;
+             background-image:url('libreoffice logo.jpg');
+             background-position:center center;
+            background-size:cover;
+	     
+        }
+        .classi
+	{
+		
+		font-size:20px;
+            color:#0000AA;
+            font-weight:bold;
+            margin-top:50px;
+	}
+        .strumento #nome_strumento 
+         {
+            
+            width:50%;
+            height:100%;
+            border-style:solid;
+            border-width:1px;
+            border-style:solid;
+            line-height:100%;
+            align-items:center;
+	justify-content:center;
+	display:flex;
+           
+        }
+        .strumento #nome_strumento a
+        {
+             display:block;
+             text-align:center;
+            color:#0000FF;
+            font-size:200%;
+            text-decoration:none;
+       }
+	.strumento #contenitore_descrizione
+	{
+		width:40%;
+               height:100%;
+               border-style:solid;
+               border-width:1px;
+               border-color:black;
+               align-items:top;
+		justify-content:center;
+		display:flex;
+        }
+        .strumento #contenitore_descrizione p
+        {
+             width:50%;
+             text-align:justify;
+             font-size:120%;
+        }
     </style>
 </head>
 <body>
     <h2 id="title">Strumenti utilizzati</h2>
+    <p class="classi">Classi prime</p>
+    <div class="strumento">
+		<div id="contenitore_immagine">
+		</div>
+                <div id="nome_strumento"> 
+                     <a href="https://www.libreoffice.org">LibreOffice</a>
+                </div>
+                <div id="contenitore_descrizione">
+                     <p>
+                     	Suite per l'ufficio, licenza libera, scaricabile gratuitamente.
+                     </p>
+                </div>
+
+    </div>
+    
 </body>
 </html>
