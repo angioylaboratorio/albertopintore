@@ -50,6 +50,14 @@
 	margin-top:20px;
          color:#0000AA;
 }
+#linkinfo
+{
+	display:block;
+	 font-family:tahoma;
+         font-size:150%;
+	margin-top:20px;
+         color:#0000AA;
+}
 #imgheader
 {
     display:block;
@@ -150,3 +158,4 @@
     width:70%;
     min-height:800px;
 }
+
