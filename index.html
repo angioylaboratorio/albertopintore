@@ -3,74 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" />
-	
-    <script type="text/javascript">
-		function carica(elemento)
-		{
-			let richiesta;
-			richiesta=new XMLHttpRequest();
-			richiesta.onreadystatechange=function()
-			{
-				document.getElementById("right").style.display="block";
-				document.getElementById("right").innerHTML=richiesta.responseText;
-			}
-			richiesta.open("GET",elemento.innerHTML + ".html",true);
-			richiesta.send();
-		}
-	</script>
-    <title>Welcome to Angioy Laboratorio</title>
+	<link href="style.css" rel="stylesheet" />
+    <title>Home page</title>
+    <style>
+        #title
+        {
+            font-size:25px;
+            color:#0000AA;
+            font-weight:bold;
+            margin-top:50px;
+        }
+    </style>
 </head>
 <body>
-    <img src="me.jpg" id="me" />
-    <h3 id="description"><span style="font-size:30px;">Insegnante tecnico pratico di laboratorio di </span><br /> 
-        informatica, sistemi e reti, tecnologie e progettazione di sistemi informatici e di telecomunicazioni<br />
-        presso Istituto Angioy Carbonia
-    </h3>
-    <h1 id="name">Alberto<br />Pintore</h1>
-    
-    <div id="navbar">
-        
-    </div>
-    <img src="header.jpg" id="imgheader"/>
-    <div id="body">
-        <div id="left">
-            
-        </div>
-        <div id="right">
-                
-        </div>
-    </div>
-    <script>
-        let contenitore=document.getElementById("navbar");
-        let testo="";
-	let richiesta;
-        if (innerWidth<=1000)
-        {
-            testo="<a href=\"index.html\">Home</a>";
-            testo=testo + "<a href=\"Home.html\">News</a>";
-            testo=testo + "<a href=\"Didattica.html\">Didattica</a>";
-            testo=testo + "<a href=\"Strumenti.html\">Strumenti</a>";
-            testo=testo + "<a href=\"Informazioni.html\">Informazioni</a>";
-		contenitore.innerHTML=testo;
-        }
-        else
-        {
-            testo="<a href=\"#\" onclick=\"carica(this)\">Home</a>";
-            testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Didattica</a>";
-            testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Strumenti</a>";
-            testo=testo + "<a href=\"#\" onclick=\"carica(this)\">Informazioni</a>";
-           contenitore.innerHTML=testo;
-        richiesta=new XMLHttpRequest();
-			richiesta.onreadystatechange=function()
-			{
-				document.getElementById("right").style.display="block";
-				document.getElementById("right").innerHTML=richiesta.responseText;
-			}
-			richiesta.open("GET","Home.html",true);
-			richiesta.send();
-        }
-        
-    </script>
+    <a href="home.html" id="linkhome">Vai alla pagina principale -----></a>
+    <h2 id="title">News</h2>
+	<a href="https://www.orizzontescuola.it/dalle-password-allia-generativa-il-nuovo-vademecum-acn-rivela-come-il-50-degli-attacchi-cyber-alla-pa-nasce-da-un-clic-sbagliato-le-regole-per-le-scuole/" id="linknews">13/08/2025 - Prevenzione attacchi cyber pubblica amministrazione</a>
+	<a href="https://www.orizzontescuola.it/riforma-del-voto-in-condotta-ecco-il-compito-di-cittadinanza-per-chi-prende-6-il-ministero-non-sara-un-compitino-avra-pari-dignita-delle-prove-di-recupero-richiedera-studio-e-riflessione/" id="linknews">13/08/2025 - Voto in condotta 6? Compito di cittadinanza</a>
+	<a href="https://www.orizzontescuola.it/maturita-valditara-gia-pronta-la-riforma-vogliamo-una-prova-che-valuti-la-persona-a-360-gradi-non-solo-conoscenza-e-competenza/" id="linknews">13/08/2025 - Già pronta la nuova maturità </a>
+	 <a href="https://www.orizzontescuola.it/maturita-stretta-sullorale-verso-un-decreto-contro-la-scena-muta-e-nuova-struttura-del-colloquio/" id="linknews">09/08/2025 - Verso un decreto contro la “scena muta” </a>
+	<a href="https://mim.gov.it/web/guest/-/scuola-disponibili-i-dati-sugli-esiti-degli-scrutini-e-degli-esami-di-stato-del-primo-e-del-secondo-ciclo-d-istruzione-per-l-anno-scolastico-2024-2025" id="linknews">08/08/2025 - Esiti finali scrutini e esame di stato</a>
+	<a href="https://www.unisonalive.it" id="linknews">30/07/2025 - UNISONA Programma eventi live per le scuole</a>
+	<a href="https://www.mim.gov.it/tematica-its" id="linknews">29/07/2025 - ITS Academy</a>
+	<a href="https://www.mim.gov.it/-/disposizioni-in-merito-all-uso-degli-smartphone-nel-secondo-ciclo-di-istruzione-1" id="linknews">29/07/2025 - Disposizioni in merito all'uso degli smartphone</a>
+   
+
 </body>
 </html>
