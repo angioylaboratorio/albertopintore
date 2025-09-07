@@ -1,0 +1,19 @@
+ Il protocollo TCP 
+la cattura e l’analisi dei pacchetti per stabilire la connessione tra due host di una rete internet, le 
+finestre di  trasmissione (sequenze e acknowledgement), indirizzi di origine, di destinazione, porte 
+utilizzate, flag di  controllo; 
+Gli indirizzi IP, esercitazioni di definizione di indirizzo di rete, di net mask, di broadcast con foglio 
+elettronico. 
+
+Subnetting semplice: 
+esercitazione con il foglio elettronico dei possibili indirizzi utilizzabili a partire da una rete e dal 
+numero di  sottoreti da creare; 
+
+Subnetting vlsm: 
+esercitazioni con il foglio elettronico dei possibili indirizzi utilizzabili a partire da una rete e dal 
+numero di host  presenti (sviluppati principalmente con le classi B e C). 
+
+Cisco Packet Tracer: 
+progettazioni di reti con utilizzo di pc, laptop, tablet, stampanti, server smartphone, switch, hub, 
+access point,  router, gestione delle reti e sottoreti con indirizzi basati su classi, sul subnetting 
+semplice, sul subnetting  vlsm, operazioni di routing statici

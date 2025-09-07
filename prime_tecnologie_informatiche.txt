@@ -1,0 +1,15 @@
+I sistemi operativi.
+Le versioni di Windows.
+Il desktop di Windows 10.
+Focus su Windows.
+Sistema operativo Windows (Avvio/arresto del sistema, gestione di file e cartelle).
+Elaborazione di testi.
+LibreOffice Writer: formattazione testo, elenchi, tabelle, immagini, intestazioni e piè di pagina, sommario automatico.
+Presentazioni multimediali.
+Le presentazioni.
+Le diapositive.
+Animazioni e transizioni.
+Il foglio di calcolo
+La formattazione delle celle.
+Formati numerici e bordi.
+Calcoli e funzioni matematiche
