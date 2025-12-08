@@ -1,0 +1,173 @@
+@charset "utf-8";
+#me
+{
+    display:block;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    border-color:#0000AA;
+    border-width:6px;
+    float:left;
+}
+#description
+{
+    text-align:center;
+    line-height:30px;
+    font-family:georgia;
+    color:#0000AA;
+}
+#name
+{
+    margin-top:80px;
+    margin-left:30px;
+    line-height:130%;
+    font-family:arial;
+    font-size:300%;
+    color:#0000AA;
+}
+#navbar
+{
+    width:150px;
+    height:500px;
+    margin-left:300px;
+    margin-top:-130px;
+    float:left;
+}
+#navbar a
+{
+    display:block;
+    font-family:tahoma;
+    font-size:150%;
+    margin-top:80px;
+    text-decoration:none;
+    color:#0000AA;
+}
+#linknews
+{
+	display:block;
+	 font-family:tahoma;
+         font-size:150%;
+	margin-top:20px;
+         color:#0000AA;
+}
+#linkinfo
+{
+	display:block;
+	 font-family:tahoma;
+         font-size:150%;
+	margin-top:20px;
+         color:#0000AA;
+}
+#imgheader
+{
+    display:block;
+    width:1000px;
+    margin-left:400px;
+    width:1000px;
+    margin-top:-130px;
+    height:500px;
+}
+#linkhome
+{
+	display:block;
+	font-size:25px;
+	font-weight:bold;
+	color:#337733;
+	text-align:right;
+	color:lightgreen;
+	text-decoration:none;
+}
+
+@media only screen and (max-width:1200px)
+{
+	#imgheader
+        {
+		display:none;
+        }
+	#navbar
+        {
+			display:block;
+			margin-left:0px;
+			margin-top:0px;
+			
+        }
+        #navbar a
+        {
+		display:block;
+		margin-top:40px;
+		border-stye:solid;
+	   
+        }
+        #body #left
+        {
+		display:none;
+        }
+        
+        #name
+        {
+			margin-top:0px;
+        }
+        #footer
+        {
+            display:none;
+        }
+        #body
+        {
+            display:none;
+        }
+        #body #left
+        {
+            display:none;
+        }
+        #body #right
+        {
+            display:none;
+        }
+		
+}
+#body
+{
+    width:100%;
+    min-height:800px;
+    display:flex;
+}
+#footer
+{
+    width:100%;
+    height:200px;
+    background-color:#0000AA;
+    color:white;
+
+}
+#footer h1
+{
+    color:white;
+    text-align:center;
+    line-height:50px;
+    font-size:200%;
+}
+#body1 a
+{
+    display:block;
+    margin-top:80px;
+    font-family:tahoma;
+    font-size:30px;
+    color:#0000AA;
+    text-align:center;
+}
+#body div
+{
+    min-height:800px;
+}
+#body #left
+{
+    width:30%;
+    min-height:800px;
+}
+#body #right
+{
+    width:70%;
+    min-height:800px;
+}
+
+

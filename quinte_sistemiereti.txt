@@ -1,0 +1,11 @@
+Pratica sull’utilizzo di Packet tracer 
+Progettazione di reti LAN: subnetting e 
+VLSM Routing statico 
+WLAN 
+Comunicazioni via internet: il cloud
+Configurazione server MAIL, HTTP, DNS, FTP (list, download, 
+upload, rename, delete), utilizzo server multipli 
+Configurazione VLAN porte accesso e di trunk, indirizzamento 
+dispositivi di VLAN, la comunicazione di una VLAN all’esterno 
+Access list semplici ed estese (non named) 
+DMZ tramite access-list

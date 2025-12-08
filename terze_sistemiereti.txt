@@ -1,0 +1,10 @@
+ Il linguaggio assembly per l’architettura Intel: 
+Le operazioni di assegnamento immediato e a registro (8 e 16 bit), le variabili di tipo byte e word,
+inizializzazione e manipolazione, la gestione della memoria mediante i puntatori Source Index e
+Destination Index con lettura/scrittura di 8/16 bit di dati (byte e word), possibili situazioni di  errore
+nel trasferimento dei dati; la gestione della memoria lifo Stack, operazioni di aggiunta ed  estrazione
+(PUSH e POP); la gestione delle etichette, le istruzioni di salto incondizionato e basato  su
+confronto di numeri senza segno (>, <, =, ≥, ≤) e su caratteri a una e a due vie mediante
+coordinamento tra salti condizionati e incondizionati; i cicli, le somme, le sottrazioni, le
+moltiplicazioni (a 8 bit), le divisioni (a 8 bit con cenni ai 16 bit); la lettura/scrittura con scorrimento
+delle celle di memoria
